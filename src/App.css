@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(248, 137, 77);
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+  color: #04697a;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.new-employee {
+  background-color: #bab9b8;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(147, 144, 144, 0.1);
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.new-employee h2 {
+  color: #000;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.new-employee label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.new-employee input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.new-employee button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.manage-employees {
+  margin-top: 25px;
+}
+
+.manage-employees h2 {
+  margin-top: 0;
+  font-weight: 600;
+  color: rgb(9, 8, 8);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #181717;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #181515;
+}
+
+tr:nth-child(even) {
+  background-color: #d60f0f;
+}
+.btn-add{
+  display: flex;
+  justify-content: center !important;
+}
